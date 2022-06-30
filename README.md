@@ -1,3 +1,6 @@
+Note that this material is currently a work-in-progress. This message will be
+removed when the first version of the workshop material is ready.
+
 Welcome!
 
 This 2 hour workshop will introduce you to using CircuitPython to bridge the
