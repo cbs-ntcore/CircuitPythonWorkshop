@@ -1,0 +1,80 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 62C5E635
+P 2800 2350
+F 0 "SW1" V 2754 2498 50  0000 L CNN
+F 1 "Button" V 2845 2498 50  0000 L CNN
+F 2 "" H 2800 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 62C5EC3D
+P 4900 2350
+F 0 "BZ1" H 5052 2379 50  0000 L CNN
+F 1 "Buzzer" H 5052 2288 50  0000 L CNN
+F 2 "" V 4875 2450 50  0001 C CNN
+F 3 "~" V 4875 2450 50  0001 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 62C5F073
+P 2800 2800
+F 0 "#PWR01" H 2800 2550 50  0001 C CNN
+F 1 "GND" H 2805 2627 50  0000 C CNN
+F 2 "" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 62C5F467
+P 4650 2850
+F 0 "#PWR02" H 4650 2600 50  0001 C CNN
+F 1 "GND" H 4655 2677 50  0000 C CNN
+F 2 "" H 4650 2850 50  0001 C CNN
+F 3 "" H 4650 2850 50  0001 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2550 2800 2800
+Wire Wire Line
+	2800 2150 2800 1900
+Wire Wire Line
+	2800 1900 2300 1900
+Text Label 2300 1900 0    50   ~ 0
+D5
+Wire Wire Line
+	4800 2450 4650 2450
+Wire Wire Line
+	4650 2450 4650 2850
+Wire Wire Line
+	4800 2250 4650 2250
+Wire Wire Line
+	4650 2250 4650 1900
+Wire Wire Line
+	4650 1900 4200 1900
+Text Label 4200 1900 0    50   ~ 0
+D10
+$EndSCHEMATC
