@@ -12,6 +12,11 @@ workshop is hands on and you will:
 - build an electronic instrument to measure reaction time
 - use the instrument to generate data on your reaction time
 
+To get started, download and install the Mu python editor from: https://codewith.mu/
+
+Please also download the examples and slides from the latest release here:
+https://github.com/cbs-ntcore/CircuitPythonWorkshop/releases/latest
+
 The course material is divided into:
 - a list of parts to order for each participant
 - a project template (used for all examples)
