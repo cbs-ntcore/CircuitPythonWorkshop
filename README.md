@@ -1,6 +1,3 @@
-Note that this material is currently a work-in-progress. This message will be
-removed when the first version of the workshop material is ready.
-
 Welcome!
 
 This 2 hour workshop will introduce you to using CircuitPython to bridge the
@@ -17,11 +14,15 @@ To get started, download and install the Mu python editor from: https://codewith
 Please also download the examples and slides from the latest release here:
 https://github.com/cbs-ntcore/CircuitPythonWorkshop/releases/latest
 
+
+For instructors and/or independent study
+------
+
 The course material is divided into:
-- a list of parts to order for each participant
-- a project template (used for all examples)
-- lecture slides
-- example code
+- a [list of parts to order](BOM.csv) for each participant
+- a project [template](template) (used for all examples)
+- [lecture slides](Circuit%20Python%20Workshop.pdf)
+- [example code](examples)
 
 To aid initial learning the microcontrollers are preloaded with CircuitPython
 (and a few libraries). For instructors (or those following independent study,

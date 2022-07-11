@@ -1,0 +1,8 @@
+Description,Vendor,Part number,Link,Price,Quantity per kit,Subtotal,Quantity for N,Price for N,,N Kits,16,Total,$525.00
+USB C to C cable,adafruit,4199,https://www.adafruit.com/product/4199,$10.00,1,$10.00,16,$160.00,,,,,
+USB C to A adapter,adafruit,4175,https://www.adafruit.com/product/4175,$3.00,1,$3.00,16,$48.00,,,,,
+RP2040 feather,adafruit,4884,https://www.adafruit.com/product/4884,$12.00,1,$12.00,16,$192.00,,,,,
+Breadboard,adafruit,64,https://www.adafruit.com/product/64,$5.00,1,$5.00,16,$80.00,,,,,
+Button,adafruit,1119,https://www.adafruit.com/product/1119,$2.50,0.1,$0.25,2,$5.00,,,,,
+Hookup wire,adafruit,758,https://www.adafruit.com/product/758,$4.00,0.2,$0.80,4,$16.00,,,,,
+Buzzer,adafruit,160,https://www.adafruit.com/product/160,$1.50,1,$1.50,16,$24.00,,,,,
